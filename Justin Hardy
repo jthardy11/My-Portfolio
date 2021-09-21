@@ -1,0 +1,66 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<nav id="navbar">
+  <a href="#welcome-section">Contact</a>
+  <a href="#projects">Work</a>
+  <a href="#profile-link">About</a>
+</nav>
+
+<main>
+
+  <section id="welcome-section">
+    <h1>Hey I am Justin Hardy</h1>
+    <p>and I'm trying to learn how to program.</p>
+    <p>Currently updating my knowledge on the great FreeCodeCamp website</p>
+  </section>
+
+  <section id="projects">
+
+    <h1>These are some of my projects.</h1>
+    <a href="https://codepen.io/your-work" target="_blank">Show all</a>
+
+    <div class="tiles">
+      <div class="project-tile">
+        <a href="https://codepen.io/jthardy13/pen/yLbxEaN" target="_blank">
+        <img src="https://media.gettyimages.com/photos/lebron-james-of-the-los-angeles-lakers-reacts-after-his-three-pointer-picture-id1300769954?s=612x612" alt="freeCodeCamp : Build a Tribute Page" class="responsive">
+        <div>freeCodeCamp : Build a Tribute Page</div>
+        </a>
+      </div>
+
+      <div class="project-tile">
+        <a href="https://codepen.io/jthardy13/pen/XWRxjMQ" target="_blank">
+        <img src="data:image/png;base64,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" alt="freeCodeCamp : Build a Technical Documentation Page" class="responsive">
+        <div>freeCodeCamp : Build a Technical Documentation Page</div>
+        </a>
+      </div>
+
+      <div class="project-tile">
+        <a href="https://codepen.io/jthardy13/pen/dyWgNOw" target="_blank">
+        <img src="https://www.mycustomer.com/sites/default/files/styles/inline_banner/public/istock_blossomstar_survey.jpg?itok=Aek4OAA3" alt="freeCodeCamp : Build a Survey Form" class="responsive">
+        <div>freeCodeCamp : Build a Survey Form</div>
+        </a>
+      </div>
+
+      <div class="project-tile">
+        <a href="https://codepen.io/jthardy13/pen/XWRxjMQ" target="_blank">
+        <img src="https://i.imgur.com/IjtNGxp.jpg" class="responsive">
+        <div>freeCodeCamp : Build a Product Landing Page</div>
+        </a>
+      </div>
+
+      <div>
+  </section>
+
+  <section id="profile">
+    <h1>Let's work together...</h1>
+    <p>I am currently looking for a job in software development</p>
+    <div class="circle">
+      <a id="profile-link" href="https://www.freecodecamp.org/frcodecamp" target="_blank">FCC</a>
+    </div>
+  </section>
+
+  <section id="copyright">
+    <h1>&copy; 2021 Justin Hardy</h1>
+  </section>
+
+</main>
